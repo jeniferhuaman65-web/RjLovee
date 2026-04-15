@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Basic Meta Tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RjLove</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+    
+    
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body class="cuerpox">
+
+<!-- ================= NAVBAR ================= -->
+<header class="navbar">
+    <div class="nav-container">
+
+        <!-- Left: Logo -->
+         <div class="nav-left">
+            <a href="#home"><img class="log" src="img/logo.png" alt="Logo"></a>
+        </div>
+
+        <!-- Center: Navigation -->
+        <nav class="nav-center">
+            <a href="index.html">Portada</a>
+            <a href="index.html">Nosotros</a>
+            <a href="index.html">Prendas</a>
+            <a href="index.html">Contacto</a>
+        </nav>
+
+        
+
+    </div>
+</header>
+
+
+<main class="producto-page">
+
+  <!-- MIGA DE PAN -->
+
+  <!-- PRODUCTO -->
+  <section class="producto-detalle">
+
+    <div class="productoropa">
+        <!-- IMÁGENES -->
+        
+        <div class="miniaturas">
+            <img src="img/Chompa Rayada/2.jpg" onclick="cambiarImg(this)">
+            <img src="img/Chompa Rayada//3.jpg" onclick="cambiarImg(this)">
+            <img src="img/Chompa Rayada/4.jpg" onclick="cambiarImg(this)">
+        
+        </div>
+
+        <div class="fotpe">
+            <a href="#"><img class="pefot" src="img/Chompa Rayada/1.jpg"></a>    
+        </div>
+       
+        <div class="tri">
+
+            <h1 id="nombreProducto">Golden Wave Cardigan</h1>
+
+            <p id="precioProducto" class="precio">S/ 40.00</p>
+
+            <!-- TALLAS -->
+            <div class="tallas">
+            <p>Tallas disponibles:</p>
+            <button onclick="seleccionarTalla(this, 'S')">S</button>
+            <button onclick="seleccionarTalla(this, 'M')">M</button>
+            <button onclick="seleccionarTalla(this, 'L')">L</button>
+           </div>
+
+           <!-- CANTIDAD -->
+           <div class="cantidad">
+             <p>Cantidad:</p>
+             <input type="number" id="cantidad" value="1" min="1">
+            </div>
+             <button class="btn-carrito" onclick="agregarCarrito()"><a href="registro.html" class="sp">Separar Prenda</a>
+
+        
+
+    
+        
+
+        </div>  
+    </div>  
+
+
+</section>
+
+<section>
+
+    <!-- INFO -->
+    <div class="info2">
+
+      
+      
+
+
+      <!-- DESCRIPCIÓN -->
+      <div class="descripcion">
+        <h3>Descripción</h3>
+        <p>
+           Cardigan de punto liviano con un exclusivo patrón de ondas en contraste. 
+          Un diseño audaz que rompe con la raya tradicional para ofrecer una estética moderna y sofisticada.
+        </p>
+      </div>
+
+      <!-- DETALLES -->
+      <div class="detalles">
+        <h3>Detalles</h3>
+        <ul>
+          <li><b>Patrón:</b> Ondas tricolores (Negro, Crema, Beige)</li>
+          <li><b>Tejido:</b> Punto abierto respirable, ideal para climas variados</li>
+          <li><b>Corte:</b> Relajado / Casual Fit</li>
+          <li><b>Cierre:</b> Botonadura frontal al tono</li>
+          <li><b>Cuello:</b> V-Neck limpio y estilizado</li>
+          <li><b>Estilo:</b> Boho-Chic / Contemporáneo</li>
+        </ul>
+      </div>
+
+    </div>
+
+</section>
+
+</main>
+
+<script src="script.js"></script>
+
+</body>
+</html>
+
+
+
+    

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Consentimiento de Datos</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body class="bt">
+
+<div class="containert">
+
+  <h2>Protección de Datos Personales</h2>
+  <div id="modal" class="modal">
+  <div class="modal-content">
+    
+    <h3>Términos y Condiciones</h3>
+    <p>
+      Al aceptar, autorizas el uso de tus datos personales para fines de contacto,
+      seguimiento, mejora del servicio y experiencia del usuario, conforme a la normativa vigente.
+    </p>
+    <p>
+      Tus datos serán tratados de forma confidencial y no serán compartidos sin tu consentimiento.
+    </p>
+  </div>
+</div>
+  <p class="desc">
+    Para brindarte una mejor experiencia, necesitamos tu consentimiento para el uso de tus datos personales.
+  </p>
+
+  <form id="formConsent">
+
+    <div class="checkbox-group">
+      <input type="checkbox" id="checkDatos">
+      <label for="checkDatos">
+        Acepto el tratamiento de mis datos personales conforme a la política de privacidad.
+      </label>
+    </div>
+
+    <div class="checkbox-group">
+      <input type="checkbox" id="checkTerminos">
+      <label for="checkTerminos">
+        Acepto los <span class="link" onclick="abrirModal()">términos y condiciones</span>.
+      </label>
+    </div>
+
+     <button class="btn" onclick="agregarCarrito()"><a href="gracias.html" class="sp">Separar Prenda</a>
+            
+    </button>
+
+  </form>
+
+</div>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Basic Meta Tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RjLove</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+   
+    
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    
+</head>
+<body class="cuerpox">
+
+<!-- ================= NAVBAR ================= -->
+<header class="navbar">
+    <div class="nav-container">
+
+        <!-- Left: Logo -->
+         <div class="nav-left">
+            <a href="#home"><img class="log" src="img/logo.png" alt="Logo"></a>
+        </div>
+
+        <!-- Center: Navigation -->
+        <nav class="nav-center">
+            <a href="index.html">Portada</a>
+            <a href="index.html">Nosotros</a>
+            <a href="index.html">Prendas</a>
+            <a href="index.html">Contacto</a>
+        </nav>
+
+        
+
+    </div>
+</header>
+
+
+<main class="producto-page">
+
+  <!-- MIGA DE PAN -->
+
+  <!-- PRODUCTO -->
+  <section class="producto-detalle">
+
+    <div class="productoropa">
+        <!-- IMÁGENES -->
+        
+        <div class="miniaturas">
+            <img src="img/Chompa Verde/2.jpg" onclick="cambiarImg(this)">
+            <img src="img/Chompa Verde/3.jpg" onclick="cambiarImg(this)">
+            <img src="img/Chompa Verde/4.jpg" onclick="cambiarImg(this)">
+        
+        </div>
+
+        <div class="fotpe">
+            <a href="#"><img class="pefot" src="img/Chompa Verde/1.jpg"></a>    
+        </div>
+       
+        <div class="tri">
+
+            <h1 id="nombreProducto">Flowy Sage Sweater</h1>
+
+            <p id="precioProducto" class="precio">S/ 40.00</p>
+
+            <!-- TALLAS -->
+            <div class="tallas">
+            <p>Tallas disponibles:</p>
+            <button onclick="seleccionarTalla(this, 'S')">S</button>
+            <button onclick="seleccionarTalla(this, 'M')">M</button>
+            <button onclick="seleccionarTalla(this, 'L')">L</button>
+           </div>
+
+           <!-- CANTIDAD -->
+           <div class="cantidad">
+             <p>Cantidad:</p>
+             <input type="number" id="cantidad" value="1" min="1">
+            </div>
+
+           <!-- BOTÓN -->
+            <button class="btn-carrito" onclick="agregarCarrito()"><a href="registro.html" class="sp">Separar Prenda</a>
+            
+            </button>
+
+        
+
+    
+        
+
+        </div>  
+    </div>  
+
+
+</section>
+
+<section>
+
+    <!-- INFO -->
+    <div class="info2">
+
+      
+      
+
+
+      <!-- DESCRIPCIÓN -->
+      <div class="descripcion">
+        <h3>Descripción</h3>
+        <p>
+          Diseño contemporáneo con estética clean. 
+          Corte cropped estructurado, tejido suave al tacto y una versatilidad inigualable para el día a día.
+        </p>
+      </div>
+
+      <!-- DETALLES -->
+      <div class="detalles">
+        <h3>Detalles</h3>
+        <ul>
+          <li><b>Escote:</b> hombros descubiertos</li>
+          <li><b>Tejido:</b> Punto liso premium de tacto suave</li>
+          <li><b>Fit:</b> Ajuste definido con pretina ancha acanalada</li>
+          <li><b>Color:</b> Verde Sage / Menta empolvado</li>
+          <li><b>Mangas:</b> Largas con puño extendido para mayor estilo</li>
+          <li><b>Estilo:</b> Romántico / Chic</li>
+        </ul>
+      </div>
+
+    </div>
+
+</section>
+
+</main>
+
+<script src="script.js"></script>
+
+</body>
+</html>
+
+
+
+    

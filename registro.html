@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Reserva tu evaluación</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+  
+  <h1>Reserva tu prenda</h1>
+  <p class="subtitle">Completa el formulario y te contactaremos .</p>
+
+  <form id="formulario">
+
+    <div class="row">
+      <div class="field">
+        <label>Nombre completo </label>
+        <input type="text" required>
+      </div>
+
+      <div class="field">
+        <label>Teléfono (WhatsApp)</label>
+        <input type="tel" required>
+      </div>
+    </div>
+
+    <div class="field">
+      <label>Elige tu modelo</label>
+      <select required>
+        <option value="">Selecciona una opción...</option>
+        <option>Slate Core Cardigan</option>
+        <option>Navy Cable Sweater</option>
+        <option>Golden Wave Cardigan</option>
+        <option>Flowy Sage Sweater</option>
+      </select>
+    </div>
+
+    <div class="field">
+      <label>Elige la talla</label>
+      <select required>
+        <option value="">Selecciona una opción...</option>
+        <option>S</option>
+        <option>M</option>
+        <option>L</option>
+      </select>
+    </div>
+
+     <div class="field">
+      <label>Elige la cantidad</label>
+      <select required>
+        <option value="">Selecciona una opción...</option>
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>Más</option>
+      </select>
+    </div>
+
+    <div class="field">
+      <label>Mensaje o dudas adicionales</label>
+      <textarea rows="5"></textarea>
+    </div>
+
+
+
+    <button class="btn" onclick="agregarCarrito()"><a href="terminos.html" class="sp">Separar Prenda</a>
+            
+    </button>
+
+  </form>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
